@@ -1,0 +1,56 @@
+﻿{
+  "schemaVersion": "1.0",
+  "candidate": {
+    "id": "candidate_example",
+    "name": "Example Candidate",
+    "targetRoles": [
+      "Software Engineer",
+      "AI Engineer"
+    ]
+  },
+  "experiences": [
+    {
+      "id": "exp_example_001",
+      "organization": "Example Company",
+      "role": "Software Engineer",
+      "location": "Example City, Country",
+      "startDate": "2024-01",
+      "endDate": "present"
+    }
+  ],
+  "bullets": [
+    {
+      "id": "bullet_example_001",
+      "achievementId": "achievement_example_performance",
+      "experienceId": "exp_example_001",
+      "text": "Improved application performance by optimizing backend services and database queries.",
+      "status": "approved",
+      "skills": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "tags": [
+        "backend",
+        "performance",
+        "database"
+      ]
+    },
+    {
+      "id": "bullet_example_002",
+      "achievementId": "achievement_example_delivery",
+      "experienceId": "exp_example_001",
+      "text": "Automated the deployment workflow using a continuous integration pipeline.",
+      "status": "draft",
+      "skills": [
+        "GitHub Actions",
+        "CI/CD"
+      ],
+      "tags": [
+        "automation",
+        "deployment",
+        "devops"
+      ]
+    }
+  ]
+}
